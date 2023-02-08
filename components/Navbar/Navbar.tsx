@@ -30,8 +30,8 @@ export function Navbar() {
             <Link href="/sell" className={styles.link}>
               Sell
             </Link>
-            <Link href="/login" className={styles.link}>
-              Chat
+            <Link href="https://comms.auraexchange.org/" className={styles.link}>
+              Comms
             </Link>
             <Link href="/members" className={styles.link}>
               Members
