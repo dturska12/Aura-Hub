@@ -30,15 +30,18 @@ export function Navbar() {
             <Link href="/sell" className={styles.link}>
               Sell
             </Link>
-            <Link href="/chat" className={styles.link}>
+            <Link href="/login" className={styles.link}>
               Chat
+            </Link>
+            <Link href="/members" className={styles.link}>
+              Members
             </Link>
           </div>
         </div>
 
         <div className={styles.navRight}>
           <div className={styles.navConnect}>
-            <ConnectWallet />
+            <ConnectWallet colorMode="dark" />
           </div>
           {address && (
             <Link className={styles.link} href={`/profile/${address}`}>
