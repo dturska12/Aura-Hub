@@ -107,6 +107,7 @@ button:hover {
 
 .ce-chat-subtitle-text {
   color: hsla(0, 0%, 100%, 0.568) !important;
+  position: relative !important;
 }
 
 .ce-chat-unread-dot {
@@ -117,6 +118,7 @@ button:hover {
 
 .ce-chat-title-container {
   background-color: #4a5162 !important;
+  position: relative !important;
   border-radius: 0px !important;
 }
 
@@ -235,6 +237,8 @@ button:hover {
   border-radius: 0px !important;
 }
 
+/* Auth Container */
+
 .background {
   padding: 100px;
   position: absolute;
@@ -300,6 +304,6 @@ button:hover {
 }
 
 ::-webkit-scrollbar {
-    width: 0; /* Remove scrollbar space */
-    background: transparent; /* Optional: just make scrollbar invisible */
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
