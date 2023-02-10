@@ -31,12 +31,27 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  NFT Exchange
+                  The Hub
                 </span>
                 <br />
-                Home of Rug Rescue🛟
+                By Aura Exchange
               </h1>
+              <p className={styles.heroSubtitle}>
+                The first NFT marketplace to add utility to your NFTs.
+              </p>
 
+              <div className={styles.heroCtaContainer}>
+                <Link className={styles.heroCta} href="/our_vision">
+                  Our Vision
+                </Link>
+                <Link
+                  className={styles.secondaryCta}
+                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  target="_blank"
+                >
+                  GitHub
+                </Link>
+              </div>
             </div>
           </div>
         </div>
