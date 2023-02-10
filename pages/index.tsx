@@ -46,10 +46,10 @@ const Home: NextPage = () => {
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://twitter.com/AuraExchange"
                   target="_blank"
                 >
-                  GitHub
+                  Twitter
                 </Link>
               </div>
             </div>
