@@ -27,10 +27,12 @@ export function Navbar() {
             <Link href="/buy" className={styles.link}>
               Buy
             </Link>
-            <Link href="/sell" className={styles.link}>
-              Sell
+            <Link href="/earn" className={styles.link}>
+              Earn
             </Link>
-            <Link href="https://comms.auraexchange.org/" className={styles.link}>
+            <Link href="https://comms.auraexchange.org/" className={styles.link}
+              target="_blank"
+            >
               Comms
             </Link>
             <Link href="/members" className={styles.link}>
