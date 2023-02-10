@@ -4,7 +4,6 @@ import { Navbar } from "../components/Navbar/Navbar";
 import NextNProgress from "nextjs-progressbar";
 import { NETWORK_ID } from "../const/contractAddresses";
 import "../styles/globals.css";
-import { ContextProvider } from "../context/index";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -21,9 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* Render the navigation menu above each component */}
       <Navbar />
       {/* Render the actual component (page) */}
-      <ContextProvider>
-        <Component {...pageProps} />
-      </ContextProvider>
+      <Component {...pageProps} />
     </ThirdwebProvider>
   );
 }
