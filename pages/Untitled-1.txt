@@ -1,0 +1,10 @@
+
+git pull origin main 
+
+git checkout -B your-branch 
+
+git add the_files_you_added 
+
+git commit -m 
+
+git push origin your-branch-name

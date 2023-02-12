@@ -6,7 +6,7 @@ const Home: NextPage = () => {
     const router = useRouter();
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container}> 
             {/* Top Section */}
             <h1 className={styles.h1}>KatNip Staking Vault</h1>
             <div className={styles.nftBoxGrid}>
