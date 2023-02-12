@@ -2,6 +2,7 @@ import { ConnectWallet, useAddress } from "@thirdweb-dev/react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
+import { Grid, Dropdown, Radio } from "@nextui-org/react";
 
 /**
  * Navigation bar that shows up on all pages.
@@ -31,8 +32,7 @@ export function Navbar() {
               Earn
             </Link>
             <Link href="https://comms.auraexchange.org/" className={styles.link}
-              target="_blank"
-            >
+              target="_blank">
               Comms
             </Link>
             <Link href="/members" className={styles.link}>
@@ -40,7 +40,6 @@ export function Navbar() {
             </Link>
           </div>
         </div>
-
         <div className={styles.navRight}>
           <div className={styles.navConnect}>
             <ConnectWallet colorMode="dark" />
