@@ -5,7 +5,7 @@ import NextNProgress from "nextjs-progressbar";
 import { NETWORK_ID } from "../const/contractAddresses";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <ThirdwebProvider desiredChainId={NETWORK_ID}>
       {/* Progress bar when navigating between pages */}
