@@ -9,7 +9,7 @@ import {
 import { BigNumber, ethers } from "ethers";
 import type { NextPage } from "next";
 import { useEffect, useState } from "react";
-import styles from "../styles/Stake.module.css"
+import styles from "../styles/Earn.module.css"
 
 const nftDropContractAddress = "0x767DFb1e584b426916D78C19a27f179B7bA35c9B";
 const tokenContractAddress = "0x88cCC5cdE30a98804a5b8002Bff55367DDd5b30D";
