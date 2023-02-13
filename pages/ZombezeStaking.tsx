@@ -17,7 +17,7 @@ import {
   STAKING_CONTRACT_ADDRESS,
   ZOE_TOKEN_ADDRESS,
 } from "../const/contractAddresses";
-import styles from "../styles/Stake.module.css";
+import styles from "../styles/Earn.module.css";
 
 const Stake: NextPage = () => {
   const address = useAddress();
@@ -69,7 +69,7 @@ const Stake: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Stake Your NFTs</h1>
+      <h1 className={styles.h1}>The Crypt</h1>
       <hr className={`${styles.divider} ${styles.spacerTop}`} />
 
       {!address ? (

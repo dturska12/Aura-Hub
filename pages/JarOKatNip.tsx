@@ -27,7 +27,7 @@ const Home: NextPage = () => {
                 <div
                     className={styles.optionSelectBox}
                     role="button"
-                    onClick={() => router.push(`/StakeKatNip`)}
+                    onClick={() => router.push(`/KatNipStaking`)}
                 >
                     {/* Staking an NFT */}
                     <img src={`/icons/stake.png`} alt="drop" />

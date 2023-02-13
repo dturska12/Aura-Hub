@@ -49,10 +49,8 @@ const Home: NextPage = () => {
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://twitter.com/AuraExchange"
-                  target="_blank"
-                >
-                  Twitter
+                  href="/our_vision">
+                  Our Vision
                 </Link>
               </div>
             </div>

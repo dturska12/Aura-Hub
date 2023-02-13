@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: "",
   images: {
-    domains: ["locksmith.unlock-protocol.com"],
+    domains: ["locksmith.unlock-protocol.com","gateway.ipfscdn.io"],
   },
 };
 
