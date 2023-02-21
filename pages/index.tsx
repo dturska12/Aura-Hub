@@ -49,7 +49,7 @@ const Home: NextPage = () => {
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="/our_vision">
+                  href="/mint">
                   Our Vision
                 </Link>
               </div>
