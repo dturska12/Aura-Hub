@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                 <Link
                   className={styles.secondaryCta}
                   href="/mint">
-                  Our Vision
+                  Mint Aura Pass
                 </Link>
               </div>
             </div>
