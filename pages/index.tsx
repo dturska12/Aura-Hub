@@ -42,10 +42,10 @@ const Home: NextPage = () => {
 
               <div className={styles.heroCtaContainer}>
                 <Link className={styles.heroCta}
-                  href="https://app.unlock-protocol.com/checkout?paywallConfig=%7B%22locks%22%3A%7B%220xca38852b736328f05737e59bbba80f884238b0b7%22%3A%7B%22network%22%3A1%7D%7D%2C%22pessimistic%22%3Atrue%2C%22skipRecipient%22%3Afalse%2C%22title%22%3A%22Aura+Platinum+Membership+Pass%22%2C%22icon%22%3A%22https%3A%2F%2Fipfs.filebase.io%2Fipfs%2FQmeUg2A2cmzW7ivuqxvENNuSQkNKbkDZvufcr4owZUejAV%22%2C%22redirectUri%22%3A%22https%3A%2F%2Fauraexchange.org%2F%22%2C%22persistentCheckout%22%3Afalse%2C%22referrer%22%3A%22%22%2C%22messageToSign%22%3A%22%22%2C%22hideSoldOut%22%3Afalse%7D"
+                  href="https://twitter.com/AuraExchange"
                   target="_blank"
                 >
-                  Aura Pass
+                  Twitter
                 </Link>
                 <Link
                   className={styles.secondaryCta}
