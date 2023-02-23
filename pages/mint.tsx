@@ -20,7 +20,7 @@ const myEditionDropContractAddress =
     "0x7b4B550d6cbf55441f6153c71A5D173d860d83fE";
 
 // Put your token ID here
-const tokenId = 5;
+const tokenId = 2;
 
 const Home: NextPage = () => {
     const address = useAddress();
