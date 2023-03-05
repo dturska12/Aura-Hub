@@ -1,4 +1,4 @@
-import { ChainId } from "@thirdweb-dev/sdk";
+import { Ethereum } from "@thirdweb-dev/sdk";
 
 /**
  * TODO: Replace these values with your contract addresses and ABI.
