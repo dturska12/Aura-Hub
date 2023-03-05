@@ -15,7 +15,7 @@ import { ChainId } from "@thirdweb-dev/sdk";
 export const ETHERSCAN_URL = "https://etherscan.io/";
 
 // 1. Set up the network ID of the network your smart contracts are deployed to.
-export const NETWORK = Mainnet;
+export const NETWORK = Ethereum;
 // 1.25 Staking contract address
 export const NFT_DROP_ADDRESS = "0xc875CE0c715EeBE8795037d6fE06a2802d6cEbE1";
 export const KATNIP_NFT_ADDRESS = "0x767DFb1e584b426916D78C19a27f179B7bA35c9B";
